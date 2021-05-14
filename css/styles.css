@@ -690,8 +690,9 @@ input[type='checkbox'] {
 	margin-bottom: 1.5rem;
 }
 
-.basic-2 .text-container {
-	margin-bottom: 4rem;
+.basic-2 .block-container{
+	margin-bottom: 2.5rem;
+	line-height: 0.5rem;
 }
 .basic-2 .right-info {
 	display: flex;
