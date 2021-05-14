@@ -696,8 +696,7 @@ input[type='checkbox'] {
 	line-height: 0.5rem;
 }
 .basic-2 .right-info {
-	display: flex;
-	float: right;
+	text-align: left;
 }
 .basic-2 li p{
 	line-height: 2.25rem;
@@ -1415,7 +1414,7 @@ a:hover.back-to-top {
 	}
 
 	.basic-2 .text-container {
-		margin-bottom: 0;
+		margin-bottom: 1rem;
 	}
 	/* end of details 1 */
 
@@ -1613,8 +1612,7 @@ a:hover.back-to-top {
 		margin-left: 3.5rem;
 	}
 	.basic-2 .right-info {
-		display: flex;
-		float: right;
+		text-align: right;
 	}
 	/* end of details 1 */
 
