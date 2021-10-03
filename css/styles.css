@@ -598,8 +598,8 @@ input[type='checkbox'] {
 /*    Header     */
 /*****************/
 .header {
-	padding-top: 7rem;
-	padding-bottom: 7rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
 	text-align: center;
 }
@@ -725,7 +725,7 @@ input[type='checkbox'] {
 /*     Details 2     */
 /*********************/
 .basic-3 {
-	padding-top: 5.5rem;
+	padding-top: 2.5rem;
 	padding-bottom: 5.75rem;
 }
 
@@ -867,8 +867,8 @@ input[type='checkbox'] {
 /*     Details 3     */
 /*********************/
 .basic-4 {
-	padding-top: 4rem;
-	padding-bottom: 3rem;
+	padding-top: 2.5rem;
+	padding-bottom: 1.5rem;
 }
 
 .basic-4 h2 {
@@ -876,7 +876,7 @@ input[type='checkbox'] {
 }
 
 .basic-4 .text-container {
-	margin-bottom: 4rem;
+	margin-bottom: 2.5rem;
 }
 
 
@@ -1127,8 +1127,8 @@ input[type='checkbox'] {
 /*     Conclusion     */
 /**********************/
 .basic-5 {
-	padding-top: 4.5rem;
-	padding-bottom: 7.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 4.5rem;
 	background: url('../images/conclusion-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
