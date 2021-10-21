@@ -54,38 +54,38 @@ html {
 
 body, p {
 	color: #6b747b; 
-	font: 400 1.1rem/1.35rem "Open Sans", sans-serif;
+	font: 400 1.25rem/1.5rem "Open Sans", sans-serif;
 }
 
 h1 {
 	color: #252c38;
 	font-weight: 700;
-	font-size: 2.1rem;
-	line-height: 2.8rem;
+	font-size: 2.5rem;
+	line-height: 3.125rem;
 	letter-spacing: -0.5px;
 }
 
 h2 {
 	color: #252c38;
 	font-weight: 700;
-	font-size: 2rem;
-	line-height: 2.5rem;
+	font-size: 2.125rem;
+	line-height: 2.625rem;
 	letter-spacing: -0.4px;
 }
 
 h3 {
 	color: #252c38;
 	font-weight: 700;
-	font-size: 1.5rem;
-	line-height: 2rem;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
 	letter-spacing: -0.3px;
 }
 
 h4 {
 	color: #252c38;
 	font-weight: 700;
-	font-size: 1.2rem;
-	line-height: 1.6rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
 	letter-spacing: -0.2px;
 }
 
@@ -104,8 +104,8 @@ h6 {
 }
 
 .h1-large {
-	font-size: 2.4rem;
-	line-height: 3.0rem;
+	font-size: 2.875rem;
+	line-height: 3.5rem;
 }
 
 .p-large {
@@ -456,8 +456,8 @@ input[type='checkbox'] {
 .navbar {
 	background-color: #f1f9fc;
 	font-weight: 600;
-	font-size: 1rem;
-	line-height: 1rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
 }
 
 .navbar .navbar-brand {
@@ -598,8 +598,8 @@ input[type='checkbox'] {
 /*    Header     */
 /*****************/
 .header {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
 	background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
 	text-align: center;
 }
@@ -692,7 +692,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .block-container{
-	margin-bottom: 1.2rem;
+	margin-bottom: 2.5rem;
 	line-height: 0.5rem;
 }
 .basic-2 .right-info {
@@ -725,7 +725,7 @@ input[type='checkbox'] {
 /*     Details 2     */
 /*********************/
 .basic-3 {
-	padding-top: 2.5rem;
+	padding-top: 5.5rem;
 	padding-bottom: 5.75rem;
 }
 
@@ -867,8 +867,8 @@ input[type='checkbox'] {
 /*     Details 3     */
 /*********************/
 .basic-4 {
-	padding-top: 2.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
 }
 
 .basic-4 h2 {
@@ -876,7 +876,7 @@ input[type='checkbox'] {
 }
 
 .basic-4 .text-container {
-	margin-bottom: 2.5rem;
+	margin-bottom: 4rem;
 }
 
 
@@ -1127,8 +1127,8 @@ input[type='checkbox'] {
 /*     Conclusion     */
 /**********************/
 .basic-5 {
-	padding-top: 2.5rem;
-	padding-bottom: 4.5rem;
+	padding-top: 4.5rem;
+	padding-bottom: 7.5rem;
 	background: url('../images/conclusion-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -1530,7 +1530,7 @@ a:hover.back-to-top {
 
 	/* Copyright */
 	.copyright {
-		text-align: center;
+		text-align: left;
 	}
 
 	.copyright .list-unstyled li {
@@ -1539,7 +1539,7 @@ a:hover.back-to-top {
 	}
 
 	.copyright .statement {
-		text-align: center;
+		text-align: right;
 	}
 	/* end of copyright */
 
