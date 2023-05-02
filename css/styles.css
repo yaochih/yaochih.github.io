@@ -54,7 +54,8 @@ html {
 
 body, p {
 	color: #6b747b; 
-	font: 400 16px/18px "Open Sans", sans-serif;
+	font: 400 16px/18px; /*  "Open Sans", sans-serif;  */
+    font-family: "Noto Sans", sans-serif;
 }
 
 h1 {
@@ -1587,7 +1588,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header {
 		padding-top: 11rem;
-		padding-bottom: 8rem;
+		padding-bottom: 4rem;
 	}
 
 	.header .text-container {
