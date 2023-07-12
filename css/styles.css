@@ -89,7 +89,15 @@ div , footer {
 	font-size: 24px;
 	margin-bottom: 16px;
 }
+.sr {
 
+	.has-animations {
+
+		.is-revealing {
+			visibility: hidden;
+		}
+	}
+}
 /* Reset ends */
 
 
