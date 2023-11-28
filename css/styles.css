@@ -120,6 +120,17 @@ h1.name {
 	display: inline-block;
 }
 
+.name-tw {
+	vertical-align: top;
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px 5px;
+}
+
 .job-title {
 	vertical-align: top;
 	background-color: #D9E7F8;
