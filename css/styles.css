@@ -282,7 +282,7 @@ ol::after {
 	/* right: -10px; */
 	border: 0px solid transparent;
 	border-right: 0;
-	border-left: 20px solid #31708F;
+	/* border-left: 20px solid #31708F; */
   	border-radius: 3px;
 }
 
@@ -332,7 +332,7 @@ li .description {
   position: relative;
   font-weight: normal;
   z-index: 1;
-  max-width: 95%;
+  max-width: 100%;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -342,12 +342,12 @@ li .description {
   content: '';
   width: 0; 
   height: 0; 
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f4f4f4;
+  /* border-left: 5px solid transparent; */
+  /* border-right: 5px solid transparent; */
+  /* border-bottom: 5px solid #f4f4f4; */
   position: absolute;
   top: -5px;
-  left: 43%;
+  /* left: 43%; */
 }
 
 .timeline:after {
