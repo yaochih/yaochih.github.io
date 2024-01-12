@@ -255,27 +255,31 @@ h1.name {
 ol {
 	position: relative;
 	display: block;
-	margin: 20px 0;
-	height: 2px;
-	background: #EEF0F7;
+	list-style: inside;
+	text-align: center;
+	
+	/* margin: 20px 0; */
+	/* height: 2px; */
+	/* background: #EEF0F7; */
 
 }
 ol::before,
 ol::after {
-	content: "";
-	position: absolute;
+	/* content: ""; */
+	/* position: absolute; */
 	top: -10px;
 	display: block;
 	width: 0;
 	height: 0;
   	border-radius: 10px;
 	border: 0px solid #31708F;
+	text-align: center;
 }
 ol::before {
-	left: -5px;
+	/* left: -5px; */
 }
 ol::after {
-	right: -10px;
+	/* right: -10px; */
 	border: 0px solid transparent;
 	border-right: 0;
 	border-left: 20px solid #31708F;
@@ -286,9 +290,10 @@ ol::after {
 li {
 	position: relative;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	width: 20%;
-  	height: 50px;
+	max-width: 150px;
+	vertical-align: top;
 }
 li .line {
   position: absolute;
@@ -298,6 +303,15 @@ li .line {
   font-weight: 600;
   color: #04143A;
 }
+
+li .logo {
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+	width: 75%;
+	max-width: 80px;
+}
+
 li .point {
 	content: "";
 	top: -3px;
@@ -311,16 +325,17 @@ li .point {
   position: absolute;
 }
 li .description {
+  text-align: center;
   display: none;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   margin-top: 10px;
   position: relative;
   font-weight: normal;
   z-index: 1;
   max-width: 95%;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
   color: #5B6A9A;
 }
 .description::before {
@@ -342,6 +357,11 @@ li .description {
 }
 
 .timeline .date{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width:100%;
+	left: 0px;
 	font-size: 14px;
 	color: #81899C;
 	font-weight: 300;
