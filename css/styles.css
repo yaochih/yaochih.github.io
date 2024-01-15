@@ -172,7 +172,8 @@ h1.name {
 .publication{
 	display: flex; 
 	align-items: center; 
-	margin-bottom: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	font-size: 18px;
 	line-height: 26px;
 	/*justify-content: center;*/
@@ -180,23 +181,30 @@ h1.name {
 
 .publication .title {
 	font-weight: bold;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .publication .author {
 	font-style: italic;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .publication .publish {
 	font-weight: bolder;
 	color: #5B6A9A;
+	margin-top: 0;
 	margin-bottom: 6px;
 }
 
 .publication img {
 	width: 100%;
 	height: auto;
+}
+
+.publication a {
+	margin-bottom: 10px;
 }
 
 
