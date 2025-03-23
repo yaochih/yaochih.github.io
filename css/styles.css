@@ -452,6 +452,10 @@ li .description {
 
 
 @media(max-width: 425px) {
+	body {
+		margin-left: 7%;
+		margin-right: 7%;
+	}
 	h1.name {
 		font-size: 40px;
 	}
@@ -487,7 +491,7 @@ li .description {
 	footer {
 		margin-top: 2050px;
 	}
-	}
+}
 
 
 /* End of all :P*/
