@@ -58,10 +58,10 @@ function leaveEmail(btn) {
 }
 
 function copyEmail(btn) {
-    const email = "yclee@umd.edu"; // Your email address
+    const email_addr = "yclee@umd.edu";
     btn.innerHTML = btn.innerHTML.replace(btn_text_default, btn_text_copied).replace(btn_text_hover, btn_text_copied);
     btn.classList.add("copied");
     btn.classList.remove("notcopied");
-    navigator.clipboard.writeText(email);
+    navigator.clipboard.writeText(email_addr);
     is_copied = true;
 }
