@@ -168,6 +168,23 @@ h1.name {
 	margin-bottom: 16px;
 }
 
+.btn.notcopied {
+	background-color: #EEF0F7;
+	transition: background-color 200ms linear;
+	transition: color 200ms linear;
+}
+
+.btn.notcopied:hover {
+	background-color: #fff;
+	transition: background-color 200ms linear;
+	transition: color 200ms linear;
+}
+
+.btn.copied, .btn.copied:hover {
+	background-color: #3482dc;
+	color: white;
+}
+
 /*intro ends*/
 
 /* Publications */
