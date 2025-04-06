@@ -233,6 +233,12 @@ h1.name {
 	margin-bottom: 10px;
 }
 
+.publication .emph {
+	color: rgb(234, 77, 77);
+	font-weight: 600;
+	font-style: normal;
+}
+
 
 /* publications ends */
 
