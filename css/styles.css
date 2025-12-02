@@ -242,7 +242,7 @@ h1.name {
 .emph {
 	color: rgb(234, 77, 77);
 	font-weight: 600;
-	font-style: normal;
+	/* font-style: normal; */
 }
 
 
