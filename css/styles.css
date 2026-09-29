@@ -340,8 +340,8 @@ li {
 	position: relative;
 	display: inline-block;
 	/* float: left; */
-	width: 15%;
-	max-width: 150px;
+	width: 13%;
+	max-width: 132px;
 	vertical-align: top;
 }
 li .line {
@@ -358,7 +358,7 @@ li .logo {
  	margin-left: auto;
   	margin-right: auto;
 	width: 75%;
-	max-width: 80px;
+	max-width: 64px;
 }
 
 li .point {
@@ -382,9 +382,9 @@ li .description {
   font-weight: normal;
   z-index: 1;
   max-width: 100%;
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 17px;
   color: #5B6A9A;
 }
 .description::before {
